@@ -1,6 +1,13 @@
 {
   "name": "activestorage-ipfs-js",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.js"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "spark-md5": "^3.0.1"
+  }
 }
